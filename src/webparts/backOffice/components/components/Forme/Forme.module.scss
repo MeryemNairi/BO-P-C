@@ -1,3 +1,29 @@
+.QAList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.QAListItem {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.QAListItem:last-child {
+  border-bottom: none;
+}
+
+.QAListItem h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.QAListItem p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
+
 .container {
   width: 100%;
   max-width: 900px;
@@ -326,8 +352,43 @@
 }
 
 
+.button2 {
+  border-radius: 20px;
+  background-color: #2B466C;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 24px; /* Augmenté pour plus de hauteur et largeur */
+  margin: 0; /* Réinitialise la marge à zéro */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 14px; /* Ajusté pour une meilleure lisibilité avec une taille accrue */
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  min-width: 120px; /* Largeur minimale pour le bouton */
+  min-height: 40px; /* Hauteur minimale pour le bouton */
+  justify-content: center; /* Centrer le texte horizontalement */
+}
 
+.button2:hover {
+  background-color: #9EBBE3;
+}
 
+.custom-select {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 14px;
+  width: 200px; /* Ajustez la largeur selon vos besoins */
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.custom-select:focus {
+  outline: none;
+  border-color: #2B466C; /* Couleur de la bordure au focus */
+}
 
 
 

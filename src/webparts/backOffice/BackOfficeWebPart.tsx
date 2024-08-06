@@ -10,8 +10,7 @@ import {
 import { sp } from "@pnp/sp/presets/all";
 
 import * as strings from 'BackOfficeWebPartStrings';
-import Forme from './components/components/Forme/Forme';
-
+import { Forme } from './components/components/Forme/Forme';
 
 export interface IHomePageWebPartProps {
   description: string;
