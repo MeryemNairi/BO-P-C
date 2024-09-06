@@ -35,7 +35,7 @@ const FirstBanner: React.FC<IFBProps> = ({ context }) =>{
       <div className={styles.FB_container}>
         <div className={styles.FB_background}>
           <div className={styles.left}>
-            <img src="/sites/Cnet/Assets/RecrutementTeam.png" alt="" />
+            <img src="/sites/Cnet/Assets/P-C-image.png" alt="" />
           </div>
           <div className={styles.right}>
                 <svg width="172" height="257" viewBox="0 0 172 257" fill="none" xmlns="http://www.w3.org/2000/svg">
